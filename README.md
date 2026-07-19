@@ -25,10 +25,3 @@ A lightweight, low-interaction HTTP honeypot built in Python, featuring a real-t
 - **📈 CLI Analyzer**: A built-in script to parse logs and export clean, structured `.csv` reports for further analysis in Excel or SIEM tools.
 
 ---
-
-## 🚀 Installation & Setup
-
-1. **Clone the repository:**
-   ```bash
-   git clone https://github.com/YOUR_USERNAME/HoneyShield-Python.git
-   cd HoneyShield-Python
