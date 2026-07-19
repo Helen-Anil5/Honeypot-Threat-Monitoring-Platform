@@ -43,7 +43,7 @@ def analyze_and_export_logs():
             # Write the row to CSV
             writer.writerow([timestamp, ip, req_type, path, payload])
 
-    print(f"✅ Success! Exported {len(logs)} events to {csv_file}")
+    print(f"Success! Exported {len(logs)} events to {csv_file}")
     print("You can now open this file in Microsoft Excel!")
 
 if __name__ == '__main__':
