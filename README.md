@@ -1,7 +1,6 @@
 # Honeypot Threat Monitoring Platform
 
 [![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://www.python.org/)
-[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 [![Status](https://img.shields.io/badge/Status-Active-success.svg)]()
 
 A lightweight, low-interaction HTTP honeypot built in Python, featuring a real-time web-based Command Center dashboard, CLI log analysis, and automated CSV reporting. Designed for educational purposes and threat intelligence gathering.
