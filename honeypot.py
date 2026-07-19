@@ -26,8 +26,7 @@ class HoneypotHandler(BaseHTTPRequestHandler):
         """Handle incoming GET requests (e.g., viewing the login page)"""
         client_ip = self.client_address[0]
         user_agent = self.headers.get('User-Agent', 'Unknown')
-        
-        # 🛑 NEW: Handle favicon requests gracefully to eliminate log noise
+   
         if self.path == '/favicon.ico':
             self.log_event(f"GET Request from {client_ip} | Path: {self.path} | UA: {user_agent} [Auto-Browser Request]")
             self.send_response(204)  # 204 No Content tells the browser to stop asking
