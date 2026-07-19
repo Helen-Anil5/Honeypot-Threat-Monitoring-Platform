@@ -1,4 +1,4 @@
-# 🛡️ Honeypot Threat Monitoring Platform
+# Honeypot Threat Monitoring Platform
 
 [![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://www.python.org/)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
@@ -8,7 +8,7 @@ A lightweight, low-interaction HTTP honeypot built in Python, featuring a real-t
 
 ---
 
-## ⚠️ DISCLAIMER
+## DISCLAIMER
 > **This project is for EDUCATIONAL and DEFENSIVE research purposes only.** 
 > - Do not deploy this on production systems or networks you do not own.
 > - If deploying to the public internet, **always** use an isolated Virtual Machine (VM) or Docker container to prevent host compromise.
@@ -16,7 +16,7 @@ A lightweight, low-interaction HTTP honeypot built in Python, featuring a real-t
 
 ---
 
-## ✨ Features
+## Features
 
 - **🎣 Deceptive Trap**: Mimics a vulnerable "NetGear Pro Router" admin login page to attract automated scanners and brute-force attempts.
 - **📝 Intelligent Logging**: Captures IP addresses, User-Agents, request paths, and submitted payloads (e.g., SQL injection, credential stuffing).
