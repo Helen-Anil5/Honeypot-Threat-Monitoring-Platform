@@ -20,7 +20,6 @@ A lightweight, low-interaction HTTP honeypot built in Python, featuring a real-t
 
 - **🎣 Deceptive Trap**: Mimics a vulnerable "NetGear Pro Router" admin login page to attract automated scanners and brute-force attempts.
 - **📝 Intelligent Logging**: Captures IP addresses, User-Agents, request paths, and submitted payloads (e.g., SQL injection, credential stuffing).
-- **🔇 Noise Reduction**: Automatically filters out browser background noise (like `/favicon.ico` requests) to keep data clean.
 - **📊 Live Admin Dashboard**: A beautiful, dark-themed Flask web UI with real-time Chart.js graphics (Attack Timeline, Top IPs, Threat Severity).
 - **📈 CLI Analyzer**: A built-in script to parse logs and export clean, structured `.csv` reports for further analysis in Excel or SIEM tools.
 
